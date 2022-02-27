@@ -32,6 +32,14 @@ select * from Address_Book;
 delete from Address_Book where FirstName = 'Aftab'
 select * from Address_Book;
 
+---UC6 Ability To Retrieve the peron Belonging City Or State----
+
+Select * from Address_Book 
+where City = 'Brigunj' or State = 'Parsa';
+
+
+
+
 
 
 
