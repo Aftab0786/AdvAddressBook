@@ -42,7 +42,13 @@ where City = 'Brigunj' or State = 'Parsa';
 
 select City,count(City) from Address_Book group by City; select State,count(State) from Address_Book group by State;
 
+---UC8 Ability to retrieve the entries sorted by alphabetically by person name----
 
+select * from Address_Book
+where City = 'banglore'
+order by FirstName asc;
+
+insert into Address_Book VALUES('Sadam', 'Alam', ' nagar', 'pune', 'mumbai', '9868', '9277277621', 'jjaha@gmail.com');
 
 
 
