@@ -21,7 +21,11 @@ insert into Address_Book Values ('Sadam', 'Alam', 'Govindpura', ' Banglore', ' k
 insert into Address_Book Values ('Hussain', 'Alam', 'Shivaji', ' Pune', ' Maharastra', '560048', '7975819452', 'Hussain@gmail.com')
 insert into Address_Book Values ('Ilyas', 'Alam', 'Gandak', ' parwanipur', ' kathmandu', '560049', '7455819623', 'ilyas@gmail.com');
 
+---UC4 Ability to edit existing contact ------
 
+SELECT * FROM Address_Book;
+update Address_Book set Zipcode = '5555', Email = 'alam41976@gmail.com' where FirstName = 'Sadam';
+select * from Address_Book;
 
 
 
